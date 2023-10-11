@@ -1,0 +1,8 @@
+number=int(input("enter a number"))
+if(number & 1) ==0:'''it checks the least 
+significant bit (LSB) of the binary representation
+of the number. If the LSB is 1, it means the number is odd,
+and if it's 0, it means the number is even.'''
+    print("even")
+else:
+    print("odd")
